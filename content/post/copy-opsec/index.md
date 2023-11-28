@@ -7,7 +7,7 @@ math:
 license: CC0
 hidden: false
 comments: true
-draft: true
+draft: false
 categories:
   - IT
   - IT.信息安全
