@@ -1,18 +1,17 @@
-baseURL: http://example.org/
-languageCode: en-us
+baseURL: https://kazamatako.github.io/
 theme: hugo-theme-stack
-title: My New Hugo Site
+title: Tako's Blog
 languageCode: zh-cn
 paginate: 5
-copyright: example copyright
+copyright: Kazama Tako
 
 languages:
     zh-cn:
         languageName: 中文
-        title: 演示站点
+        title: 風間凧的博客
         weight: 2
         params:
-            description: 演示说明
+            description: 
 
 DefaultContentLanguage: zh-cn
 
@@ -60,8 +59,7 @@ params:
         lastUpdated: 2006-01-02
 
     sidebar:
-        emoji: 😊
-        subtitle: testsubtitle
+        subtitle: 人要学会与过去的自己切割(bushi)
         avatar:
             enabled: true
             local: true
@@ -92,5 +90,25 @@ params:
         toggle: true
         default: auto
 
+    customcss:
+        - "css/heimu.css"
+
     comments:
         enabled: false
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
