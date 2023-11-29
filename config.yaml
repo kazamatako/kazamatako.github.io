@@ -94,7 +94,13 @@ params:
         - "css/heimu.css"
 
     comments:
-        enabled: false
+        enabled: true
+        provider: cactus
+
+        cactus:
+            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+            serverName: "cactus.chat"
+            siteName: kazamatako-blog
 
 markup:
     goldmark:
