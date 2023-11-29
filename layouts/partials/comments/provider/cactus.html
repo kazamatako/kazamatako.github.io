@@ -23,7 +23,7 @@
         defaultHomeserverUrl: "{{ .defaultHomeserverUrl | safeJS }}",
         serverName: "{{ .serverName }}",
         siteName: "{{ .siteName }}",
-        commentSectionId: "{{ .Slug }}"
+        commentSectionId: "{{ .Params.commentSectionId }}"
     })
 </script>
 {{- end -}}

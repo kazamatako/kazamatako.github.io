@@ -1,6 +1,7 @@
 ---
 title: 关于
 slug: about
+commentSectionId: about
 menu:
     main: 
         weight: 0
