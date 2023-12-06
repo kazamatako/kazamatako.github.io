@@ -5,7 +5,7 @@ description:
 date: 2023-11-28
 image: 
 math: 
-license: CC0
+license: Licensed under CC0 4.0
 hidden: false
 comments: true
 draft: false

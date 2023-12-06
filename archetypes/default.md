@@ -1,8 +1,9 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-slug: {{ replace .Name }}
+title: {{ replace .Name "-" " " | title }}
+slug: {{ .Name }}
 description: 
-date: {{ .Date }}
+date: {{ time.Format "2006-01-02" .Date }}
+update: {{ time.Format "2006-01-02" .Date }}
 image: 
 math: 
 license: 
