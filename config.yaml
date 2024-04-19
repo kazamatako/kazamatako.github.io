@@ -95,12 +95,25 @@ params:
 
     comments:
         enabled: true
-        provider: cactus
+        provider: giscus
 
-        cactus:
-            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
-            serverName: "cactus.chat"
-            siteName: kazamatako-blog
+        giscus:
+            repo: "kazamatako/comments"
+            repoID: "R_kgDOLwPOoQ"
+            category: "Announcements"
+            categoryID: "DIC_kwDOLwPOoc4Ceyjf"
+            mapping: "pathname"
+            strict: 0
+            lightTheme: "preferred_color_scheme"
+            reactionsEnabled: 1
+            emitMetadata: 0
+            inputPosition: "top"
+            lang: "zh-CN"
+
+        # cactus:
+            # defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+            # serverName: "cactus.chat"
+            # siteName: kazamatako-blog
 
 markup:
     goldmark:

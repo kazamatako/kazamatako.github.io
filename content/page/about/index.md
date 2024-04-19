@@ -22,4 +22,4 @@ menu:
 
 ## 评论系统
 
-目前评论系统已经搭建完毕。这个博客使用的是 [Cactus](https://cactus.chat/) ，这是用Matrix协议实现的评论系统。我希望大家能够使用以Matrix协议实现的即时通讯，而不是需要手机号注册的Telegram。
+目前评论系统已经搭建完毕。~~这个博客使用的是 [Cactus](https://cactus.chat/) ，这是用Matrix协议实现的评论系统。我希望大家能够使用以Matrix协议实现的即时通讯，而不是需要手机号注册的Telegram。~~尽管很中意Cactus匿名评论的功能，还是把评论系统转移到了[Giscus](https://giscus.app/)，因为Catcus的其他功能有些过于简单了。在Giscus与Gitalk之间纠结了一下，最终选择了Giscus，是因为考虑到博客的评论在内容上不是向仓库提交「issue」来解决某些问题，而是进行「讨论」。至于匿名评论的问题，Github的帐号注册门槛较低，虽然有登录这一门槛，但应该也算是能够克服的吧。
