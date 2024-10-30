@@ -8,7 +8,7 @@ copyright: Kazama Tako
 languages:
     zh-cn:
         languageName: 中文
-        title: 風間凧的博客 | Kazama Tako's Blog
+        title: 風間凧的博客
         weight: 2
         params:
             description: 
